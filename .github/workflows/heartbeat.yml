@@ -1,0 +1,33 @@
+name: Daily heartbeat
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # UTC bo'yicha har kuni 00:00 da; kerak bo'lsa o'zgartiring
+  workflow_dispatch: {}   # qo'lda ham ishga tushurish uchun tugma
+
+permissions:
+  contents: write
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update heartbeat file
+        run: |
+          TIMESTAMP="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          echo "Last heartbeat: $TIMESTAMP" > heartbeat.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add heartbeat.txt
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: heartbeat $TIMESTAMP"
+            # push using GITHUB_TOKEN
+            git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main
+          fi
