@@ -18,11 +18,10 @@ Assalomu alaykum! Men **Solijon Solayev** — mustaqil ishlab chiquvchi, **Linux
 
 ## 🛠️ Ko‘nikmalar
 
-- 💻 **Frontend (HTML, CSS, JS)**  
-- 🧩 **Telegram Bot ishlab chiqish (Python, Aiogram)**  
-- 🐧 **Linux (Ubuntu, Zorin OS, terminal boshqaruvi)**  
-- 🧾 **Office dasturlari (Word, Excel, PowerPoint, Docs)**  
-- ⚙️ **Avtomatlashtirish va texnik tahlil**
+- 💻 **Frontend (HTML, CSS, JS, React)**  
+- 🧩 **Telegram Bot ishlab chiqish (sodda telegram botlar)**  
+- 🐧 **Linux (Ubuntu, Zorin OS, Arch Linux (qisman), terminal boshqaruvi)**  
+- 🧾 **Office dasturlari (Word, Excel, PowerPoint, Docs)**
 
 ---
 
@@ -49,13 +48,13 @@ Assalomu alaykum! Men **Solijon Solayev** — mustaqil ishlab chiquvchi, **Linux
 ## 🚀 Faoliyatimdan lavhalar
 
 ### 🔹 Telegram botlar
-- Avtomatik javoblar, ma’lumot yig‘uvchi va tahlil qiluvchi botlar yarataman.
+- Avtomatik javoblar, ma’lumot yig‘uvchi va tahlil qiluvchi botlar yaratishga qiziqaman
 
 ### 🔹 Frontend ishlanmalar
 - Minimalistik, foydalanuvchiga qulay interfeyslar ustida ishlayman.
 
 ### 🔹 Linux ekotizimi
-- Ubuntu, Zorin OS, hamda terminal asosida avtomatlashtirish jarayonlari.
+- Ubuntu, Zorin OS, hamda terminal asosida kichik avtomatlashtirish jarayonlari.
 
 ---
 
