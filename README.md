@@ -11,7 +11,7 @@
 Assalomu alaykum! Men **Solijon Solayev** — mustaqil ishlab chiquvchi, **Linux foydalanuvchisi** va **Telegram botlar** bilan ishlashni yoqtiruvchi freelancer.
 
 🔹 Hozirda **Frontend yo‘nalishida amaliyotchi** sifatida o‘sib borayapman.  
-🔹 **Office dasturlari**ni chuqur bilaman (Word, Excel, PowerPoint, va boshqalar).  
+🔹 **Office dasturlari**ni chuqur bilaman (Word, Excel, PowerPoint, Canva va boshqalar).  
 🔹 Texnologiyalar, avtomatlashtirish va samarali ish tizimlariga qiziqaman.
 
 ---
